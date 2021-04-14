@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modern2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/berita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Spesifikasi Rumah Modern 2"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2modern1" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2modern2" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2modern3" />
+
+            <TextView
+                android:id="@+id/deskripsiberita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Berikut data desain arsitektur rumah diatas : \n Ukuran Tanah : panjang 16.2 m x lebar 24.5 m \n Luas Tanah : 396.9 m² \n Spesifikasi :\n Jumlah Kamar Tidur : 6 \n Jumlah Kamar Mandi : 6+1 \n Jumlah Powder Room/Toilet Tamu : 1 \nJumlah Maid Room : 2 \n Jumlah Mobil yang bisa ditampung : 6 (garage 3, carpot 3) \n Living Room : 1 \n Study Room \n Entertainment Room \n Warehouse \n Swimming Pool \n Rooftop \n Perlu Arsitek? Hubungi: \n Konsultasi Jabodetabek: +6282146645837 \n Konsultasi Luar Jabodetabek: +6282219788877 " />
+
+            <Button
+                android:id="@+id/modern_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_menu"
+                android:backgroundTint="#FFC107"
+                android:text="Kembali"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

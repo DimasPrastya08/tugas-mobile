@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">DesainRumah</string>
+
+    <!-- arsitek -->
+    <string name="Michaellauw.com">
+        <a href="https://michaellauw.com/">Website : Michaellauw.com</a>
+    </string>
+
+    <string name="michaellauwstudio">
+        <a href="https://www.instagram.com/michaellauwstudio/">Instagram : michaellauwstudio</a>
+    </string>
+    
+    <string name="Mega__design">
+        <a href="https://www.instagram.com/mega__design/">Instagram : mega__design</a>
+    </string>
+
+    <string name="revanosatria">
+        <a href="https://www.instagram.com/revanosatria/">Instagram : revanosatria</a>
+    </string>
+
+    <string name="mssmassociates">
+        <a href="https://www.mssmassociates.com/">Website : mssmassociates.com</a>
+    </string>
+
+    <string name="telparsitek2"><u>0811563168</u>.</string>
+
+
+    <!-- bahan bangunan -->
+
+    <string name="genteng">
+        <a href="https://www.arsiteki.com/harga-genteng-keramik/#more-908">Read More>></a>
+    </string>
+
+    <string name="cat">
+        <a href="https://www.arsiteki.com/harga-cat-belazo/#more-2769">Read More>></a>
+    </string>
+
+    <string name="plafon">
+        <a href="https://www.arsiteki.com/harga-plafon-gypsum/#more-640">Read More>></a>
+    </string>
+
+    <string name="kayu">
+        <a href="https://www.arsiteki.com/harga-kayu-usuk/#more-412">Read More>></a>
+    </string>
+
+    <!-- berita -->
+
+    <string name="berita1">
+        <a href="https://www.propertyinside.id/2021/01/17/awali-tahun-2021-citraland-cibubur-luncurkan-cluster-monterrey-rumah-2-lantai-harga-mulai-rp600-jutaan/">Read More>></a>
+    </string>
+
+    <string name="berita2">
+        <a href="https://alif.id/read/ahmad-husain-fahasbu/mengenal-kh-afifuddin-muhajir-2-arsitek-intelektual-mahad-aly-situbondo-b235550p/">Read More>></a>
+    </string>
+
+    <string name="berita3">
+        <a href="https://international.sindonews.com/read/304270/42/sinyal-perdamaian-dari-biden-tunjuk-arsitek-perjanjian-nuklir-jadi-wamenlu-1610866916?showpage=all">Read More>></a>
+    </string>
+
+</resources>

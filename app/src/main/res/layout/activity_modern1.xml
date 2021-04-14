@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modern1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/berita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Spesifikasi Rumah Modern 1"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1modern1" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1modern2" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1modern3" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1modern4" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1modern5" />
+
+            <TextView
+                android:id="@+id/deskripsiberita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Berikut data desain arsitektur rumah diatas : \n Ukuran Tanah : panjang 12 m x lebar 8 m \nLuas Tanah : 96 m² \n Spesifikasi : \n - 4 Kamar Tidur \n - 2 Kamar mandi \n - kolam renang \n - musholla \n - ruang tamu mezanine \n kondep split level, tema tropis modern " />
+
+            <Button
+                android:id="@+id/modern_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_menu"
+                android:backgroundTint="#FFC107"
+                android:text="Kembali"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

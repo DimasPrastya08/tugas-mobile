@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Klasik2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/berita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Spesifikasi Rumah Klasik 2"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2klasik1" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2klasik2" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain2klasik3" />
+
+            <TextView
+                android:id="@+id/deskripsiberita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Berikut data desain arsitektur rumah diatas : \n Ukuran Tanah : panjang 50 m x lebar 40 m \n Luas Tanah : 2000 m²  \n Berikut data Ukuran Bangunan : \n Luas Lantai 1 : 850 m² \n Luas Lantai 2 : 780 m² \n Luas Bangunan Keseluruhan : 1630 m² \n Fee Desain Arsitek : Rp 170.000.000,- \n Fasilitas : \n Kamar Tidur : 7 bh \n Kamar Mandi : 5 bh \n Kamar Tidur ART : 2 bh \n Kamar Tidur Sopir : 2 bh \n Carport : 10 Mobi \n Ruang Kerja \n Ruang Keluarga \n Area Santai \n Taman Depan dan Taman Belakang \n Bangunan diatas merupakan bangunan Rumah tinggal dengan konsep desain Rumah Klasik Modern." />
+
+            <Button
+                android:id="@+id/klasik_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_menu"
+                android:backgroundTint="#FFC107"
+                android:text="Kembali"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

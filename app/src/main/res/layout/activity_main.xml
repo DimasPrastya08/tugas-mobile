@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/kamarmodern"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtdashboard"
+                android:text="Desain Rumah"
+                android:fontFamily="monospace"
+                android:textStyle="italic"
+                android:textSize="24dp"
+
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profil_image"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/logo"
+                app:civ_border_color="#fff"
+                app:civ_border_width="2dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/katalog"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#FFC107"
+            android:text="KATALOG"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnbahan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#4CAF50"
+            android:text="BAHAN BANGUNAN"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#E91E63"
+            android:text="INTERIOR EKSTERIOR"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/arsitek"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#0D3E65"
+            android:text="Arsitek"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/profil"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#009688"
+            android:text="Profile Anggota"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnberita"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_menu"
+            android:backgroundTint="#2196F3"
+            android:text="berita"
+            android:textColor="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:background="#9FFFFFFF">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Aplikasi ini memberikan kemudahan bagi Anda yang ingin atau sedang merancang rumah impian.."
+                android:textColor="#303030"
+                android:textSize="15dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

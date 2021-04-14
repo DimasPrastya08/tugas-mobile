@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Berita">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/beritapertama"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Awali Tahun 2021, Citraland Cibubur Luncurkan Cluster Monterrey, Rumah 2 Lantai Harga Mulai Rp600 Jutaan"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_berita1"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/berita1" />
+
+            <TextView
+                android:id="@+id/deskripsiberita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="PROPERTY INSIDE – Setelah sukses dengan Cluster The New Areca di tahun 2020 lalu, kini awal tahun 2021, CitraLand Cibubur kembali melansir cluster hunian terbarunya, yakni Cluster Monterrey. Masih menyasar segmen hunian seharga di bawah Rp1 miliar, CitraLand Cibubur menghadirkan Cluster Monterrey yang mengusung konsep Smart Living."/>
+
+            <TextView
+                android:id="@+id/berita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/berita1"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/beritakedua"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Mengenal KH. Afifuddin Muhajir (2): Arsitek Intelektual Ma’had Aly Situbondo"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_berita2"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/berita2" />
+
+            <TextView
+                android:id="@+id/deskripsiberita2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Pasca sukses mengawal kembalinya NU ke Khittah 26 dan penerimaan asas tunggal Pancasila, nama mendiang almarhum Kiai As’ad Syamsul Arifin, sebagai aktor utama even besar itu terus menghiasi beberapa liputan media nasional. Majalah Tempo edisi no. 42 Thn. XIV 15 Desember 1984 menempatkan fotonya dalam cover utama." />
+
+            <TextView
+                android:id="@+id/berita2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/berita2"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/beritaketiga"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Sinyal Perdamaian dari Biden, Tunjuk Arsitek Perjanjian Nuklir Jadi Wamenlu"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_berita3"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/berita3" />
+
+            <TextView
+                android:id="@+id/deskripsiberita3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="WASHINGTON - Presiden Amerika Serikat (AS) terpilih, Joe Biden , menunjuk negosiator utama perjanjian nuklir Iran untuk menduduki jabatan teratas di Departemen Luar Negeri. Penunjukkan ini seolah memberikan sinyal normalisasi hubungan yang kacau balau di bawah kepresiden Donald Trump."/>
+
+            <TextView
+                android:id="@+id/berita3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/berita3"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/b_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_menu"
+                android:backgroundTint="#FFC107"
+                android:text="Kembali"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

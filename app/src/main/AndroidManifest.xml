@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugasakhir.DesainRumah">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.tugasakhir.DesainRumah.Mini2"></activity>
+        <activity android:name="com.tugasakhir.DesainRumah.Mini1" />
+        <activity android:name="com.tugasakhir.DesainRumah.Klasik2" />
+        <activity android:name="com.tugasakhir.DesainRumah.Klasik1" />
+        <activity android:name="com.tugasakhir.DesainRumah.Modern2" />
+        <activity android:name="com.tugasakhir.DesainRumah.Modern1" />
+        <activity android:name="com.tugasakhir.DesainRumah.Bahan" />
+        <activity android:name="com.tugasakhir.DesainRumah.Berita" />
+        <activity android:name="com.tugasakhir.DesainRumah.Arsitek" />
+        <activity android:name="com.tugasakhir.DesainRumah.Klasik" />
+        <activity android:name="com.tugasakhir.DesainRumah.Minimalis" />
+        <activity android:name="com.tugasakhir.DesainRumah.Modern" />
+        <activity android:name="com.tugasakhir.DesainRumah.Profile" />
+        <activity android:name="com.tugasakhir.DesainRumah.Katalog" />
+        <activity android:name="com.tugasakhir.DesainRumah.FullScreenActivity" />
+        <activity android:name="com.tugasakhir.DesainRumah.Gallery" />
+        <activity android:name="com.tugasakhir.DesainRumah.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

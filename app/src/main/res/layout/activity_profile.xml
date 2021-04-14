@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#343637"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="#57009688"
+            android:text="   Profile Anggota"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/foto"
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/epa"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/epa" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#E91E63"
+                android:text="Epa Febyola"
+                android:textColor="#353434"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="#E91E63"
+                android:text="NPM 18313007"
+                android:textColor="#FF2E2D2D" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#E91E63"
+                android:text="TI18B"
+                android:textColor="#FF2E2D2D" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/foto2"
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/dimas"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/dimas" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#E91E63"
+                android:text="Dimas Prasetya Wijaya"
+                android:textColor="#FF2E2D2D"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="#E91E63"
+                android:text="NPM 18313006"
+                android:textColor="#FF2E2D2D" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#E91E63"
+                android:text="TI18B"
+                android:textColor="#FF2E2D2D" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/foto3"
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/fiza"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fiza" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#E91E63"
+                android:text="Nurul Hafiza"
+                android:textColor="#FF2E2D2D"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="right"
+                android:backgroundTint="#E91E63"
+                android:text="NPM 18313005"
+                android:textColor="#FF2E2D2D"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#E91E63"
+                android:text="TI18B"
+                android:textColor="#FF2E2D2D" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/k_kembali"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_green"
+            android:backgroundTint="#009688"
+            android:text="Kembali"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

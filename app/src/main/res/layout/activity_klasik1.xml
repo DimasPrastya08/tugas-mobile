@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Klasik1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/berita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Spesifikasi Rumah Klasik 1"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1klasik1" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1klasik2" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1klasik3" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1klasik4" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/desain1klasik5" />
+
+            <TextView
+                android:id="@+id/deskripsiberita1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Berikut data desain arsitektur rumah diatas : \n Ukuran Tanah : panjang 40 m x lebar 15 m \n Luas Tanah : 600 m² \n Berikut data Ukuran Bangunan : \n Luas Lantai 1 : 300 m² \n Luas Lantai 2 : 270 m² \n Luas Lantai 3 : 250 m² \n Luas Bangunan Keseluruhan : 820 m² \n Fee Desain Arsitek : Rp 82.000.000,- \n Fasilitas :  \n A). LANTAI 1 / BASEMENT \n Taman Depan \n Kolam Ikan \n Area Santai \n Carport : 4 Mobil \n Garasi : 2 Mobil \n Ruang Tidur Asisten Rumah Tangga : 2 buah \n Ruang Tidur Sopir : 3 buah \n Kamar Mandi / WC : 3 buah \n Minibar: 1 buah \n Ruang Biliard \n Area Parkir Jetski : 2 Buah \n Kolam Renang \n Gazebo \n B). LANTAI 2 \n Teras Depan \n Foyer \n Ruang Tamu \n Ruang Kerja \n Ruang Bersama \n Ruang Makan \n Ruang Keluarga \n Kamar Mandi / WC : 2 Buah \n Balkon \n C). LANTAI 3 \n Balkon Depan \n Ruang Tidur Utama + KM/WC + WIC \n Ruang Tidur Anak 1 + KM/WC + WIC \n Ruang Tidur Anak 2 + KM/WC + WIC \n Ruang Keluarga \n Void \n Balkon Belakang" />
+
+            <Button
+                android:id="@+id/klasik_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_menu"
+                android:backgroundTint="#FFC107"
+                android:text="Kembali"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
